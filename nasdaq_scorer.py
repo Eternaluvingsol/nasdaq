@@ -55,12 +55,26 @@ try:
     from NASDAQ_250 import NASDAQ_250
     TICKERS = NASDAQ_250
 except ImportError:
-    TICKERS = ['AAPL','MSFT','NVDA','GOOGL','AMZN','META','TSLA','AVGO','ADBE','PEP','COST','NFLX','AMD',
-               'CRM','TMUS','CSCO','INTU','AMAT','QCOM','TXN','ISRG','NOW','BKNG','VRTX','REGN','KLAC',
-               'PANW','MU','LRCX','SNPS','CDNS','CRWD','FTNT','MRVL','PDD','MELI','SHOP','DDOG','ZS',
-               'WDAY','DASH','PLTR','MSTR','ABNB','CEG','CPRT','FAST','GILD','HON','IDXX','KDP','KHC',
-               'MAR','MNST','PYPL','ROST','SBUX','TEAM','TTD','VRSK','ADP','AMGN','BIIB','CHTR','CMCSA',
-               'EA','EXC','LULU','MDLZ','ODFL','ORLY','PCAR','WBD','WMT']
+    TICKERS = [
+    'AAPL', 'MSFT', 'NVDA', 'GOOGL', 'AMZN', 'META', 'TSLA', 'AVGO', 'ADBE', 'PEP', 
+    'COST', 'NFLX', 'AMD', 'CRM', 'TMUS', 'CSCO', 'INTU', 'AMAT', 'QCOM', 'TXN', 
+    'ISRG', 'NOW', 'BKNG', 'VRTX', 'REGN', 'KLAC', 'PANW', 'MU', 'LRCX', 'SNPS', 
+    'CDNS', 'CRWD', 'FTNT', 'MRVL', 'PDD', 'MELI', 'SHOP', 'DDOG', 'ZS', 'WDAY', 
+    'DASH', 'PLTR', 'MSTR', 'ABNB', 'CEG', 'CPRT', 'FAST', 'GILD', 'HON', 'IDXX', 
+    'KDP', 'KHC', 'MAR', 'MNST', 'PYPL', 'ROST', 'SBUX', 'TEAM', 'TTD', 'VRSK', 
+    'ADP', 'AMGN', 'BIIB', 'CHTR', 'CMCSA', 'EA', 'EXC', 'LULU', 'MDLZ', 'ODFL', 
+    'ORLY', 'PCAR', 'WBD', 'WMT', 'ASML', 'ARM', 'ADI', 'APP', 'ALAB', 'ARGX', 
+    'ADSK', 'ALNY', 'ASTS', 'ACGL', 'AFRM', 'AKAM', 'AMKR', 'ARXS', 'ARCC', 'APA', 
+    'AAOI', 'AEIS', 'ASND', 'ALGN', 'AGNC', 'AUR', 'APLD', 'AAON', 'ARWR', 'AAL', 
+    'AVAV', 'ALGM', 'ABVX', 'ALKS', 'AVT', 'APGE', 'ACT', 'ACMR', 'APPF', 'ACLS', 
+    'AMRX', 'ATAT', 'ALM', 'AUGO', 'ACIW', 'ALHC', 'ARCB', 'ACAD', 'ADEA', 'ARLP', 
+    'ASO', 'ATRO', 'AEHR', 'ARQT', 'ADPT', 'AMBA', 'ALMS', 'ANDE', 'AGYS', 'AVPT', 
+    'ACHC', 'ALRM', 'ALGT', 'AUPH', 'ASTH', 'ADMA', 'ANIP', 'AMSC', 'ADUS', 'AGIO', 
+    'APPN', 'APC', 'AAPG', 'AIP', 'ALKT', 'ABCL', 'AEVA', 'AVAH', 'ANAB', 'ALNT', 
+    'ALMR', 'AMLX', 'ABTC', 'AVBP', 'ATRC', 'ARDX', 'ATAI', 'AFYA', 'ACDC', 'AHCO', 
+    'AMAL', 'ALVO', 'ATLC', 'ATEX', 'AVLN', 'AHG', 'ATEC', 'ADTN', 'APPS', 'AOSL', 
+    'ASTE', 'AIAI', 'ASST', 'AIIR', 'ARRY', 'AKTS', 'AVO'
+]
 
 GROK_API_KEY = os.getenv("GROK_API_KEY")
 
